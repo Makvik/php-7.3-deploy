@@ -2,8 +2,8 @@
 
 **Usage in Dockerfile:**
 ```Dockerfile
-	FROM makvik/php-7.3-deploy:latest
-	CMD ["php-fpm"]
+FROM makvik/php-7.3-deploy:latest
+CMD ["php-fpm"]
 ```
 
 **Usage in GitLabCI:**
